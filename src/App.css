@@ -1,42 +1,46 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import "tailwindcss";
+
+/* body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.wrapper {
+	display: inline-block;
+	border: 2px solid #05011d;
+	padding: 20px;
+	width: 600px;
+	box-sizing: border-box;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+	font-size: 24px;
+	margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.timer-display {
+	font-size: 48px;
+	margin-top: 20px;
 }
-
-.card {
-  padding: 2em;
+.buttons {
+	margin-top: 20px;
 }
-
-.read-the-docs {
-  color: #888;
+.start,
+.stop {
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 10px;
+	cursor: pointer;
 }
+.start {
+	background-color: #53ae5e;
+}
+.stop {
+	background-color: #d90f26;
+} */
